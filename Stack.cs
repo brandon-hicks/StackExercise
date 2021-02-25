@@ -5,27 +5,38 @@ namespace StackExercise
 {
     public class Stack
     {
-        private static List<object> value = new List<object>();
+        private List<object> value = new List<object>();
         public void Push(object obj)
         {
             if (obj == null)
             {
-               throw new InvalidOperationException();
+                throw new InvalidOperationException();
             }
-            else
-                value.Add(obj);
+            value.Add(obj);  
         }
 
         public object Pop()
         {
-            
-            for (int i = value.Count - 1; i >= 0; i--)
+            if(value.Count == 0)
             {
-                if(value[i] == null)
-                {
-                    throw new InvalidOperationException();
-                }
-                return value[i];
+                throw new InvalidOperationException();
+            }
+            object result =  value[0];
+
+            for (int i = 0; i <= value.Count; i++)
+            {
+                value[i] = (int)value[i + 1];
+            }
+            value.Remove(value.Count - 1);
+
+            return result;
+        }
+
+        public void Clear()
+        {
+            for (int i = 0; i <= value.Count; i++)
+            {
+                value.RemoveAt(i);
             }
         }
     }

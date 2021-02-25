@@ -1,0 +1,16 @@
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise.deps.json
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise.runtimeconfig.json
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise.runtimeconfig.dev.json
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise.dll
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/ref/StackExercise.dll
+/home/brandon/Projects/CSharpProjects/StackExercise/bin/Debug/net5.0/StackExercise.pdb
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.csprojAssemblyReference.cache
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.GeneratedMSBuildEditorConfig.editorconfig
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.AssemblyInfoInputs.cache
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.AssemblyInfo.cs
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.csproj.CoreCompileInputs.cache
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.dll
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/ref/StackExercise.dll
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.pdb
+/home/brandon/Projects/CSharpProjects/StackExercise/obj/Debug/net5.0/StackExercise.genruntimeconfig.cache
