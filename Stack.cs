@@ -23,17 +23,8 @@ namespace StackExercise
             var lastObj = value.Count - 1;
 
             var result = value[lastObj];
-            
             value.RemoveAt(lastObj);
             return (result);
-        }
-
-        public void Clear()
-        {
-            for (int i = 0; i <= value.Count; i++)
-            {
-                value.RemoveAt(i);
-            }
         }
     }
 }

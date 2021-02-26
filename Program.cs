@@ -18,8 +18,7 @@ namespace StackExercise
             for (int i = 0; i <= max; i++)
             {
                 Console.WriteLine(stack.Pop());
-            }
-            
+            }            
         }
     }
 }
