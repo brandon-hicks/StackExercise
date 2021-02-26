@@ -8,13 +8,18 @@ namespace StackExercise
         {
             var stack = new Stack();
 
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
+            int max = 5;
+
+            for(int i = 0; i <= max; i++)
+            {
+                stack.Push(i);
+            }
+
+            for (int i = 0; i <= max; i++)
+            {
+                Console.WriteLine(stack.Pop());
+            }
             
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
         }
     }
 }
