@@ -26,5 +26,10 @@ namespace StackExercise
             value.RemoveAt(lastObj);
             return (result);
         }
+
+        public void Clear()
+        {
+            value.Clear();
+        }
     }
 }
